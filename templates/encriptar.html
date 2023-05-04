@@ -29,10 +29,10 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="mb-4">Subir archivo</h1>
+      <h1 class="mb-4">Subir archivo a encriptar</h1>
       <form method="POST" enctype="multipart/form-data" action="{{ url_for('encriptar') }}">
         <div class="mb-3">
-          <label for="texto" class="form-label">Selecciona un archivo</label>
+          <label for="texto" class="form-label">Ingrese la clave</label>
           <input type="text" class="form-control" id="texto" name="clave" required>
         </div>
         <div class="mb-3">
